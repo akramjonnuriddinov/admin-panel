@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- NORMALIZE -->
     <link rel="stylesheet" href="./css/normalize.css">
     <!-- STYLES -->
@@ -12,7 +16,97 @@
 </head>
 <body>
     
+    <main class="main-content">
+        <div class="container page">
+            <!-- DASHBOARD -->
+            <section class="dashboard">
+                <div class="profile">
+                    <img class="profile-img" src="https://picsum.photos/32/32" width="32" height="32" alt="Profile img">
+                    <p class="profile-name">Dashboard Kit</p>
+                </div>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">
+                                <svg class="menu-svg" width="19" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z" fill="currentColor"></path></svg>
+                                <p class="menu-text">Overview</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
+            <!-- OVERVIEW -->
+            <section class="overview">
+                <nav class="overview-nav">
+                    <ul class="overview-nav-list">
+                        <li class="overview-list-item">
+                            <h2 class="overview-title">Overview</h2>
+                        </li>
+                        <li class="overview-list-item">
+                            <form class="nav-form" action="https://echo.htmlacademy.ru/" method="POST">
+                                <input class="search" type="search" name="search_result" required>
+                                <button class="notification-btn"><img class="" src="./img/notification.svg" width="16" height="16" alt="notification"></button>
+                            </form>
+                            <p class="user-name">Jones Ferdinand</p>
+                            <img class="user-img" src="https://picsum.photos/44/44" width="44" height="44" alt="User img">
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="count-list">
+                    <li class="count-item">
+                        <h3 class="count-title">Unresolved</h3>
+                        <p class="count-number">60</p>
+                    </li>
+                    <li class="count-item">
+                        <h3 class="count-title">Overdue</h3>
+                        <p class="count-number">16</p>
+                    </li>
+                    <li class="count-item">
+                        <h3 class="count-title">Open</h3>
+                        <p class="count-number">43</p>
+                    </li>
+                    <li class="count-item">
+                        <h3 class="count-title">On hold</h3>
+                        <p class="count-number">64</p>
+                    </li>
+                </ul>
+                
+            </section>
+            
+        </div>
+
+    </main>
     
     <script src="js/main.js"></script>
 </body>
