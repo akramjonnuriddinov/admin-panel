@@ -302,27 +302,6 @@ input[type="search"]::-webkit-search-results-decoration {
     font-weight: 700;
 }
 
-.table {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.table-item-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #DFE0EB;
-    padding-left: 32px;
-    padding-bottom: 12px;
-    padding-right: 24px;
-}
-
-.table-item-title {
-    color: var(--ticket-color);
-    margin: 0;
-    margin-bottom: 4px;
-}
-
 .table-item {
     display: flex;
     justify-content: space-between;
@@ -353,24 +332,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .ticket-user-update {
     margin: 0;
-}
-
-.update-time {
-}
-
-.table-item-customers {
-}
-
-.customer-update {
-}
-
-.customer-update-time {
-}
-
-.table-item-date {
-}
-
-.status-wrapper {
 }
 
 .table-item-status {
