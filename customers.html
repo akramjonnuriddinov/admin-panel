@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <main class="main-content">
+        <div class="container">
+            <div class="page">
+                <!-- DASHBOARD -->
+                <div class="dashboard">
+                    <div class="profile">
+                        <img class="profile-img" src="https://picsum.photos/32/32" width="32" height="32" alt="Profile img">
+                        <p class="profile-name">Dashboard Kit</p>
+                    </div>
+                    <div class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item">
+                                <a class="menu-link" href="index.html">
+                                    <i class="fa-solid fa-gauge menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Dashboard</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="customers.html">
+                                    <i class="fa-solid fa-users menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Customers</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-brands fa-product-hunt menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Products</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-brands fa-first-order-alt menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Orders</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-solid fa-chart-line menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Analytics</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-solid fa-bars menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Categories</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-solid fa-gift menu-svg" width="19" heihgt="12"></i>
+                                    <p class="menu-text">Discount</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-solid fa-hammer menu-svg" width="19" heihgt="12"></i>
+                                    <p class="menu-text">Inventory</p>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">
+                                    <i class="fa-solid fa-gear menu-svg" width="19" height="12"></i>
+                                    <p class="menu-text">Settings</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!-- OVERVIEW -->
+                <div class="overview">
+                    <nav class="overview-nav">
+                        <ul class="overview-nav-list">
+                            <li class="overview-list-item">
+                                <h2 class="overview-title">Customers</h2>
+                            </li>
+                            <li class="overview-list-item">
+                                <form class="nav-form" action="https://echo.htmlacademy.ru/" method="POST">
+                                    <input class="search" type="search" name="search_result" required>
+                                    <button class="notification-btn"><img class="" src="./img/notification.svg" width="16" height="16" alt="notification"></button>
+                                </form>
+                                <p class="user-name">Jones Ferdinand</p>
+                                <img class="user-img" src="https://picsum.photos/44/44" width="44" height="44" alt="User img">
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="customers-form-wrapper">
+                        <h2 class="customers-form-title">Edit Customers</h2>
+                        <form class="customers-form" action="https://echo.htmlacademy.ru" autocomplete="off" method="POST">
+                            <div class="input-wrapper">
+                                <label class="customers-label">
+                                    <p class="customers-label-text">First name</p>
+                                    <input class="customers-input" type="text" placeholder="First name" name="first-name" required>
+                                </label>
+                                <label class="customers-label">
+                                    <p class="customers-label-text">Last name</p>
+                                    <input class="customers-input" type="text" placeholder="Last name" name="last-name" required>
+                                </label>
+                                <label class="customers-label">
+                                    <p class="customers-label-text">Phone</p>
+                                    <input class="customers-input" type="tel" placeholder="Phone" name="tel" required>
+                                </label>
+                                <label class="customers-label">
+                                    <p class="customers-label-text">Role</p>
+                                    <select class="user-select" name="select">
+                                        <option value="user">User</option>
+                                        <option value="admin">Admin</option>
+                                    </select>
+                                </label>
+                                <label class="customers-label">
+                                    <p class="customers-label-text">Email</p>
+                                    <input class="customers-input" type="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" placeholder="Email" name="email" required>
+                                </label>
+                                <label class="customers-label">
+                                    <p class="customers-label-text">Password</p>
+                                    <input class="customers-input" type="password" placeholder="Password" name="password" required>
+                                </label>
+                            </div>
+                            <button class="customer-btn" type="submit">Update</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
